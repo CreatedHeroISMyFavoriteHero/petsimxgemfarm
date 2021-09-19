@@ -1,5 +1,6 @@
 
---Anti AFK stolen from infinite yield // the readily available old one :)
+local lib = require(game.ReplicatedStorage:WaitForChild("Framework"):WaitForChild("Library"))
+lib.Message.New("If the script isn't working make sure to break a chest/coin and collect their orbs | Made by rent#8392")
 local GC = getconnections or get_signal_cons
 if GC then
     for i,v in pairs(GC(game.Players.LocalPlayer.Idled)) do
